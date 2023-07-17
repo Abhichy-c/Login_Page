@@ -40,8 +40,19 @@
 }
 .sociallink a{
     padding: 0px 10px;
-    border: 1px solid gray;
-    border-radius:250px;
+    border: 2px solid white;
+    border-radius:100px;
+    margin-left: 5px;
+}
+.sociallink a:hover{
+       margin-left:10px;
+       width:20px ;
+       height:50px;
+       padding-right:35px ;
+       padding-top:10px;
+       border: 2px solid rgb(255, 0, 89);
+       position: relative;
+       bottom: 10px;
 }
 label{
     font-weight:bold;
@@ -55,6 +66,12 @@ label{
     background:rgba(219, 216, 216, 0.626);
     width:300px;
     height: 30px;
+    display: block;
+    padding-left: 10px;
+    color: rgb(255, 0, 89);
+}
+.input::placeholder{
+    color: blue;
 }
 .container button{
     width: 300px;
